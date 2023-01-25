@@ -6,8 +6,8 @@ const Header = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li><a>Mes Projets</a></li>
               <li><a>A Propos de moi</a></li>
+              <li><a>Mes Projets</a></li>
               <li><a>Me contacter</a></li>
             </ul>
           </div>
