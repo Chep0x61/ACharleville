@@ -4,8 +4,8 @@ const Navbar = () => {
           <div className="navbar-start">
             <a className="btn btn-ghost normal-case text-xl">ACharleville</a>
           </div>
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+          <div className="navbar-center hidden md:flex">
+            <ul className="menu menu-horizontal">
               <li><a>A Propos de moi</a></li>
               <li><a>Mes Projets</a></li>
               <li><a>Me contacter</a></li>
