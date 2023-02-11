@@ -1,6 +1,6 @@
-const Popup = () => {
+const Popup = ({ id }) => {
     return (
-        <label htmlFor="my-modal-1" className="btn">open modal</label>
+        <label htmlFor="my-modal-${id}" className="btn">Voir ce projet</label>
     );
 }
 
