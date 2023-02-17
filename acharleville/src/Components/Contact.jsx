@@ -10,7 +10,7 @@ const Contact = () => {
                 <p className="mt-5 text-md md:text-lg lg:text-xl">Mon profil vous intéresse ?</p>
                 <p className="text-md md:text-lg lg:text-xl">Vous avez une idée de Projet ?</p>
                 <p className="text-md md:text-lg lg:text-xl">Envie de discuter du monde de la création sonore ?</p>
-                <p className="mb-5 text-md md:text-lg lg:text-xl">Je suis ouverte à toute opportunité ! N'hésitez pas</p>
+                <p className="mb-5 text-md md:text-lg lg:text-xl">Je suis ouverte à toute opportunité ! N'hésitez pas à me contacter sur un de mes réseaux.</p>
                   <div className="flex justify-center gap-2">
                     <a className="btn btn-circle" href="https://www.instagram.com/pellarinalizee" target="_blank" rel="noreferrer">
                       <img className="h-8 w-8" src="/images/instagram.png"></img>
