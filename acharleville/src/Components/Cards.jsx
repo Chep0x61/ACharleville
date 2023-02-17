@@ -2,6 +2,7 @@ import Card from "./Card";
 
 const Cards = () => {
     return (
+        <section id="projects">
         <div>
             <h2 className="text-4xl font-bold text-center pb-8 pt-8">Mes Projets</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-none lg:grid-cols-3 place-content-center place-items-center gap-4">
@@ -15,6 +16,7 @@ const Cards = () => {
 
             </div>
         </div>
+        </section>
     );
 }
 
