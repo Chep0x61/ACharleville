@@ -6,9 +6,9 @@ const Navbar = () => {
           </div>
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal">
-              <li><a>A Propos de moi</a></li>
-              <li><a>Mes Projets</a></li>
-              <li><a>Me contacter</a></li>
+              <li><a href="#about" onClick={() => document.getElementById('about').scrollIntoView({behavior: 'smooth'})}>A Propos de moi</a></li>
+              <li><a href="#projects" onClick={() => document.getElementById('projects').scrollIntoView({behavior: 'smooth'})}>Mes Projets</a></li>
+              <li><a href="#contact" onClick={() => document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}>Me contacter</a></li>
             </ul>
           </div>
           <div className="navbar-end gap-2">
