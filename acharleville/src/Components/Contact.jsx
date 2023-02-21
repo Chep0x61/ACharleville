@@ -5,7 +5,7 @@ const Contact = () => {
         <section id="contact">
           <div className="hero h-[40rem] bg-[url('../public/ffflurry.svg')] bg-cover">
             <div className="hero-content text-center text-neutral-content">
-              <div className="card w-[80%] max-w-xl md:max-w-2xl lg:max-w-2xl bg-blue-500 shadow-xl border-8 border-blue-500">
+              <div className="card w-[80%] max-w-xl md:max-w-2xl lg:max-w-2xl bg-secondary shadow-xl border-8 border-secondary text-white">
                 <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">Me Contacter</h1>
                 <p className="mt-5 text-md md:text-lg lg:text-xl">Mon profil vous intéresse ?</p>
                 <p className="text-md md:text-lg lg:text-xl">Vous avez une idée de Projet ?</p>
