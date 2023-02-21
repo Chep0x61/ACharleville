@@ -23,7 +23,7 @@ const Hero = () => {
               <p className='text-2xl font-bold text-center md:text-4xl lg:text-5xl'>Salut, je suis Alizée!</p>
               <p className="text-2xl font-semibold text-center bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text">Je suis un Sound Designer</p>
               <div className="p-8">
-              <a href="/documents/example.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/documents/cv.pdf" target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-secondary">Retrouvez mon CV</button>
               </a>
               </div>
