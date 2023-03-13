@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react';
 import Avatar from "./Avatar";
-import Button from "./Button";
 
 const Hero = () => {
     const [index, setIndex] = useState(0);
