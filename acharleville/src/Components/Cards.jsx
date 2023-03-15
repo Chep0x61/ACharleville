@@ -4,19 +4,34 @@ const Cards = () => {
     return (
         <section id="projects">
         <div>
-            <h2 className="text-4xl font-bold text-center pb-8 pt-8">Mes Projets</h2>
+            <h2 className="text-4xl font-bold text-center pt-8 pb-2 text-flash">Mes Projets</h2>
+            <p className="text-md lg:text-lg text-center pb-8 text-test">Je vous recommande d'utiliser un casque pour une immersion complète lors de l'écoute de mes projets.</p>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-none lg:grid-cols-3 place-content-center place-items-center gap-4">
-                <Card w="48" id="1" title="Arcane" date="Janvier 2023" cdesc="Enregistrements studio, Sound design et Mixage." desc="Workshop soutenue par l'équipe pédagogique de l'école. L'objectif est de partir d'un montage de la série Arcane, de zéro à l'entièreté du Sound design, musique, et doublage français. En un mois il y a eu session de doublage avec les comédiens en studio. De même pour les sessions d'enregistrement de Foley, et d'ambiance. Puis les 3 dernières semaines ont été rythmé par le montage, la création de VFX sonore, ainsi que le mixage. La mise aux normes et l'Edit de la musique ont clôturer le projet, ainsi qu'une 2nd version plus développée." pic="https://lepauledorion.files.wordpress.com/2022/01/arcane.jpeg" alt="Projet1" ylink="https://www.youtube.com/embed/0C8mb2HJfl0" ytitle="CHARLEVILLE Alizée WS ASD"/>
+                <Card w="48" id="12" title="Arcane - Trailer" date="Sound Design" cdesc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité, et doublage français en studio." desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité, et doublage français en studio." pic="https://lepauledorion.files.wordpress.com/2022/01/arcane.jpeg" alt="Projet1" ylink="https://www.youtube.com/embed/0C8mb2HJfl0" ytitle="ARCANE - Sound design • Charleville"/>
 
-                <Card w="48" id="2" title="Habitat Inédit" date="Décembre 2022" cdesc="Sound design et Mixage" desc="description" pic="https://www.eaux-vives-3nied.fr/wp-content/uploads/2019/12/CastorEtCastorins.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/X9at37tsrY8" ytitle="resonance sped up"/>
+                <Card w="48" id="11" title="Court Métrage - Le caméléon" date="Ingénieur Son" cdesc="?" desc="Court-métrage soutenue par l'équipe pédagogique de l'école Cinécréatis. Prise en direct sur le lieu de tournage, puis responsable de la post-production sonore." pic="/images/cameleon.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/OA2onnhzWxc" ytitle="LE CAMELEON - Ingénieur son • Charleville"/>
 
-                <Card w="48" id="3" title="Mac 'N' Cheese" date="Mai 2022" cdesc="Prise de son, Sound design et Mixage" desc="description" pic="https://www.iamag.co/wp-content/uploads/2013/10/macn-cheese-1.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/ZcMTjbHfs4U" ytitle="Mac 'n' Cheese - Sound Design - Charleville"/>
+                <Card w="48" id="10" title="Habitat Inédit" date="Bruitages" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité, et doublage français en studio." pic="images/bird.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/aWsqpFQNX5M" ytitle="HABITAT INEDIT - Sound Design • Charleville"/>
 
-                <Card w="48" id="4" title="Memphré" date="Mai 2022" cdesc="Prise de son, Sound design et Mixage" desc="description" pic="/images/memphre.png" alt="Projet2" ylink="https://www.youtube.com/embed/UBpUC3YDZKs" ytitle="MEMPHRÉ - Sound Design - Charleville"/>
+                <Card w="48" id="9" title="Court Métrage - Memphré" date="Doublage" cdesc="?" desc="Court-métrage d'animation en association externe avec l'école LISAA.  Enregistrement de foley, sound design, musique édité, et doublage français en studio. " pic="images/lisa.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/KrrrTvE6ccE" ytitle="Memphré | Film de diplôme Bachelor Animation 2D | 2022"/>
 
-                <Card w="48" id="5" title="Tiny Worlds" date="Février 2022" desc="Prise de son et mixage" pic="https://img.freepik.com/vecteurs-libre/fond-univers-degrade_23-2149635763.jpg?w=1380&t=st=1676062924~exp=1676063524~hmac=0c729fc9d343c424faa956745798a1d538156f901f6421e19a820d90fd1f5d2a" alt="Projet3" ylink="https://www.youtube.com/embed/X9at37tsrY8" ytitle="resonance sped up"/>
+                <Card w="48" id="8" title="Un millimètre Audi" date="Sound Design" cdesc="?" desc="Workshop collaboré avec Manon Chapelière,  soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, création musical et mixage." pic="images/audi.png" alt="Projet2" ylink="https://www.youtube.com/embed/Mv2Ni31HSMw" ytitle=" AUDI - 1 millimètre - Sound Design • Chapelière&Charleville"/>
 
-                <Card w="48" id="6" title="Le Caméléon" date="Juin 2021" desc="description" pic="https://img.freepik.com/vecteurs-libre/fond-univers-degrade_23-2149635763.jpg?w=1380&t=st=1676062924~exp=1676063524~hmac=0c729fc9d343c424faa956745798a1d538156f901f6421e19a820d90fd1f5d2a" alt="LeCaméléon" ylink="https://www.youtube.com/embed/OA2onnhzWxc" ytitle="resonance sped up"/>
+                <Card w="48" id="7" title="Mac'n'Cheese" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité, et doublage français en studio." pic="images/macncheese.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/ZcMTjbHfs4U" ytitle="Mac 'n' Cheese - Sound Design • Charleville"/>
+
+                <Card w="48" id="6" title="Tiny World" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley et sound design." pic="images/tinyworld.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/6HV8vN10-io" ytitle="TINY WORLDS - Sound Design • CHARLEVILLE"/>
+
+                <Card w="48" id="5" title="Arcane - Extrait S1 Ep4" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité, et doublage français en studio." pic="/images/arcane.jpg" alt="Projet1" ylink="https://www.youtube.com/embed/9j9fcWYEEmI" ytitle="ARCANE - Sound design • Charleville"/>
+
+
+                <Card w="48" id="4" title="Oktapodi" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité." pic="images/okto.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/R6sF4R_4lfo" ytitle="OKTAPODI - Sound Design • Charleville"/>
+
+                <Card w="48" id="3" title="Court Métrage - Espérance" date="Ingénieur Son" cdesc="?" desc="Court-métrage pour le Nikon festival. Prise de son en extérieur sur plateau de tournage, sound design et mixage." pic="images/esperance.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/UTM-zQc1Kdk" ytitle="ESPERANCE - Court métrage • Charleville"/>
+
+                <Card w="48" id="2" title="Habitat Inédit Castor" date="Bruitages" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, création et mixage musical, et doublage français en studio." pic="images/castor.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/n3ESj7TLkn4" ytitle="HABITAT INÉDIT - ARTE - Sound Design • Charleville"/>
+
+                <Card w="48" id="1" title="Publicité Fubiz" date="Sound Design" desc="" pic="images/fubiz.gif" alt="Projet2" ylink="https://www.youtube.com/embed/slnDy3KtH9Y" ytitle=" FUBIZ - Sound Design • Charleville "/>
 
             </div>
         </div>
