@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ACharleville/static/css/main.a1efe5ee.css",
-    "main.js": "/ACharleville/static/js/main.7ebfbca8.js",
-    "static/media/oooscillate.svg": "/ACharleville/static/media/oooscillate.6cbf4bdc27cc4f309921.svg",
-    "static/media/wave-haikei.svg": "/ACharleville/static/media/wave-haikei.a56efd7f188c160c9838.svg",
-    "index.html": "/ACharleville/index.html",
-    "main.a1efe5ee.css.map": "/ACharleville/static/css/main.a1efe5ee.css.map",
-    "main.7ebfbca8.js.map": "/ACharleville/static/js/main.7ebfbca8.js.map"
+    "main.css": "/static/css/main.5f82f570.css",
+    "main.js": "/static/js/main.2ad7c540.js",
+    "static/media/oooscillate.svg": "/static/media/oooscillate.6cbf4bdc27cc4f309921.svg",
+    "static/media/wave-haikei.svg": "/static/media/wave-haikei.a56efd7f188c160c9838.svg",
+    "index.html": "/index.html",
+    "main.5f82f570.css.map": "/static/css/main.5f82f570.css.map",
+    "main.2ad7c540.js.map": "/static/js/main.2ad7c540.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1efe5ee.css",
-    "static/js/main.7ebfbca8.js"
+    "static/css/main.5f82f570.css",
+    "static/js/main.2ad7c540.js"
   ]
 }
