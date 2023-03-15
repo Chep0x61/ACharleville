@@ -15,15 +15,15 @@ const Hero = () => {
     });
 
     return(
-        <div className="hero min-h-screen bg-base-200 bg-[url('../public/oooscillate.svg')] bg-cover pb-20 md:pb-12 lg:pb-none">
-            <div className="hero-content flex-col lg:flex-row">
+        <div className="hero min-h-screen bg-cover bg-left-top md:bg-center bg-[url('../public/oooscillate.svg')] pb-20 md:pb-12 lg:pb-none bg-main">
+            <div className="hero-content flex-col lg:flex-row text-flash pt-24 md:pt-12 md:gap-72">
             <Avatar />
-            <div className="flex flex-col justify-center items-center lg:pl-8 lg:gap-2">
-              <p className='text-2xl font-bold text-center md:text-4xl lg:text-5xl'>Salut, je suis Alizée!</p>
-              <p className="text-2xl font-semibold text-center bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text">Je suis un Sound Designer</p>
+            <div className="flex flex-col justify-center items-center lg:gap-2">
+              <p className='text-2xl font-bold text-center md:text-4xl lg:text-5xl'>Salut c'est Alizée</p>
+              <p className='text-test text-xl md:text-3xl lg:text-4xl'>Bienvenue sur mon site !</p>
               <div className="p-8">
-              <a href="/documents/cv.pdf" target="_blank" rel="noopener noreferrer">
-                <button className="btn btn-secondary">Retrouvez mon CV</button>
+              <a href="/documents/CV_ACharleville.pdf" target="_blank" rel="noopener noreferrer">
+                <button className="btn bg-flash text-main hover:bg-orange">Retrouvez mon CV</button>
               </a>
               </div>
             </div>
