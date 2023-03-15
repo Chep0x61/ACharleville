@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ACharleville/static/css/main.a1efe5ee.css",
-    "main.js": "/ACharleville/static/js/main.22d25b69.js",
+    "main.js": "/ACharleville/static/js/main.7ebfbca8.js",
     "static/media/oooscillate.svg": "/ACharleville/static/media/oooscillate.6cbf4bdc27cc4f309921.svg",
     "static/media/wave-haikei.svg": "/ACharleville/static/media/wave-haikei.a56efd7f188c160c9838.svg",
     "index.html": "/ACharleville/index.html",
     "main.a1efe5ee.css.map": "/ACharleville/static/css/main.a1efe5ee.css.map",
-    "main.22d25b69.js.map": "/ACharleville/static/js/main.22d25b69.js.map"
+    "main.7ebfbca8.js.map": "/ACharleville/static/js/main.7ebfbca8.js.map"
   },
   "entrypoints": [
     "static/css/main.a1efe5ee.css",
-    "static/js/main.22d25b69.js"
+    "static/js/main.7ebfbca8.js"
   ]
 }
