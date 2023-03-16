@@ -13,13 +13,13 @@ const Navbar = () => {
           </div>
           <div className="navbar-end gap-2">
             <a className="btn btn-circle bg-main" href="https://www.instagram.com/pellarinalizee" target="_blank" rel="noreferrer">
-              <img className="h-8 w-8" src="./ACharleville/images/instagram.png"></img>
+              <img className="h-8 w-8" src="./acharleville.art/images/instagram.png"></img>
             </a>
             <a className="btn btn-circle bg-main" href="https://www.linkedin.com/in/alizée-charleville-4a1227185" target="_blank" rel="noreferrer">
-              <img className="h-8 w-8" src="./ACharleville/images/linkedin.png"></img>
+              <img className="h-8 w-8" src="./acharleville.art/images/linkedin.png"></img>
             </a>
             <a className="btn btn-circle bg-main" href="mailto:ac.charleville@gmail.com" target="_blank" rel="noreferrer">
-              <img className="h-8 w-8" src="./ACharleville/images/mail.png"></img>
+              <img className="h-8 w-8" src="./acharleville.art/images/mail.png"></img>
             </a>
           </div>
         </div>

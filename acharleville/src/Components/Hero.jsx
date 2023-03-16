@@ -22,7 +22,7 @@ const Hero = () => {
               <p className='text-2xl font-bold text-center md:text-4xl lg:text-5xl'>Salut c'est Alizée</p>
               <p className='text-test text-xl md:text-3xl lg:text-4xl'>Bienvenue sur mon site !</p>
               <div className="p-8">
-              <a href="/documents/CV_ACharleville.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="./acharleville.art/documents/CV_ACharleville.pdf" target="_blank" rel="noopener noreferrer">
                 <button className="btn bg-flash text-main hover:bg-orange">Retrouvez mon CV</button>
               </a>
               </div>
