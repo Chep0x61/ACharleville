@@ -20,7 +20,7 @@ const Cards = () => {
 
                 <Card w="48" id="7" title="Mac'n'Cheese" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité, et doublage français en studio." pic="./images/macncheese.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/ZcMTjbHfs4U" ytitle="Mac 'n' Cheese - Sound Design • Charleville"/>
 
-                <Card w="48" id="6" title="Tiny World" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley et sound design." pic="./acharleville.art/images/tinyworld.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/6HV8vN10-io" ytitle="TINY WORLDS - Sound Design • CHARLEVILLE"/>
+                <Card w="48" id="6" title="Tiny World" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley et sound design." pic="./images/tinyworld.jpg" alt="Projet2" ylink="https://www.youtube.com/embed/6HV8vN10-io" ytitle="TINY WORLDS - Sound Design • CHARLEVILLE"/>
 
                 <Card w="48" id="5" title="Arcane - Extrait S1 Ep4" date="Sound Design" cdesc="?" desc="Workshop soutenue par l'équipe pédagogique de l'école. Enregistrement de foley, sound design, musique édité, et doublage français en studio." pic="./images/arcane.jpg" alt="Projet1" ylink="https://www.youtube.com/embed/9j9fcWYEEmI" ytitle="ARCANE - Sound design • Charleville"/>
 
