@@ -1,7 +1,7 @@
 import PopUp from "./PopUp";
 import PopUpContent from "./PopUpContent";
 
-const Card = ({ w, h, title, date, cdesc, desc, pic, alt, ylink, ytitle, id }) => {
+const Card = ({ w, h, title, date, desc, pic, alt, ylink, ytitle, id }) => {
     return (
       <div className={`card card-compact w-${w} h-${h} bg-retry shadow-xl`}>
         <figure><img src={pic} alt={alt} className="w-full aspect-[16/9] h-full object-cover"/></figure>
