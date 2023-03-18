@@ -15,7 +15,7 @@ const Hero = () => {
     });
 
     return(
-        <div className="hero min-h-screen bg-cover bg-left-top md:bg-center bg-[url('../public/oooscillate.svg')] pb-20 md:pb-12 lg:pb-none bg-main">
+        <div className="hero min-h-screen bg-cover bg-left-top md:bg-center bg-[url('../public/images/decoration/oscillate.svg')] pb-20 md:pb-12 lg:pb-none bg-main">
             <div className="hero-content flex-col lg:flex-row text-flash pt-24 md:pt-12 md:gap-72">
             <Avatar />
             <div className="flex flex-col justify-center items-center lg:gap-2">
