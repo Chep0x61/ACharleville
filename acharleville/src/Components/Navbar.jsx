@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
         <div className="navbar bg-flash">
           <div className="navbar-start">
-            <a className="btn normal-case text-xl bg-main text-snow hover:bg-main">ACharleville</a>
+            <a className="btn normal-case text-xl font-bold text-4xl bg-flash text-main hover:bg-flash border-none">ACharleville</a>
           </div>
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal gap-2 font-medium">
@@ -13,13 +13,13 @@ const Navbar = () => {
           </div>
           <div className="navbar-end gap-2">
             <a className="btn btn-circle bg-main" href="https://www.instagram.com/pellarinalizee" target="_blank" rel="noreferrer">
-              <img className="h-8 w-8" src="./images/instagram.png"></img>
+              <img className="h-8 w-8" src="/images/socials/instagram.png"></img>
             </a>
             <a className="btn btn-circle bg-main" href="https://www.linkedin.com/in/alizée-charleville-4a1227185" target="_blank" rel="noreferrer">
-              <img className="h-8 w-8" src="./images/linkedin.png"></img>
+              <img className="h-8 w-8" src="/images/socials/linkedin.png"></img>
             </a>
             <a className="btn btn-circle bg-main" href="mailto:ac.charleville@gmail.com" target="_blank" rel="noreferrer">
-              <img className="h-8 w-8" src="./images/mail.png"></img>
+              <img className="h-8 w-8" src="/images/socials/mail.png"></img>
             </a>
           </div>
         </div>
