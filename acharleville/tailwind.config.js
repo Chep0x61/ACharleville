@@ -18,6 +18,9 @@ module.exports = {
         '2xl': '1900px',
         '3xl': '1920px',
       },
+      fontFamily: {
+        'sawai': ['sawai', 'sans-serif'],
+      },
       'animation': {
           'text':'text 5s ease infinite',
       },
