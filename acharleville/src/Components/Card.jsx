@@ -7,10 +7,10 @@ const Card = ({ w, h, title, date, role, desc, pic, alt, ylink, ytitle, id }) =>
         <figure><img src={pic} alt={alt} className="w-full aspect-[16/9] h-full object-cover"/></figure>
         <div className="card-body">
           <div className="flex flex-col items-start flex-col-reverse gap-2">
-          <h2 className="card-title text-snow">{title}</h2>
+          <h2 className="card-title text-snow text-lg lg:text-xl">{title}</h2>
           <div>
-            <div className="badge bg-yellow text-[0.6rem] text-retry border-0 lg:text-base">{role}</div>
-            <div className="badge bg-retry text-[0.6rem] text-snow border-0 lg:text-base">{date}</div>
+            <div className="badge bg-yellow text-[0.6rem] text-retry border-0 text-xs lg:text-base">{role}</div>
+            <div className="badge bg-retry text-[0.6rem] text-snow border-0 text-xs lg:text-base">{date}</div>
           </div>
           </div>
           <div className="card-actions justify-end">
