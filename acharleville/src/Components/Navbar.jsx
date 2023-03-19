@@ -2,7 +2,9 @@ const Navbar = () => {
     return (
         <div className="navbar bg-flash">
           <div className="navbar-start">
-            <a className="btn normal-case text-xl font-bold text-4xl bg-flash text-main hover:bg-flash border-none">ACharleville</a>
+            <a className="btn normal-case text-base bg-flash text-main hover:bg-flash border-none lg:text-2xl font-sawai">
+              Faites ressentir <br className="lg:hidden"/> l'image avec le son
+            </a>
           </div>
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal gap-2 font-medium">
