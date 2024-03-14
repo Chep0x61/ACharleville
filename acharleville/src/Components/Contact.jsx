@@ -12,17 +12,16 @@ const Contact = () => {
                 <p className="mb-5 text-md md:text-lg lg:text-xl">N'hésitez pas à me contacter sur l'un de mes réseaux.</p>
                   <div className="flex justify-center gap-2">
                     <a className="btn btn-circle" href="https://www.instagram.com/pellarinalizee" target="_blank" rel="noreferrer">
-                      <img className="h-8 w-8" src="./images/socials/instagram.png"></img>
+                      <img className="h-8 w-8" src="./images/socials/instagram.png" alt="instagram"></img>
                     </a>
                     <a className="btn btn-circle" href="https://www.linkedin.com/in/alizée-charleville-4a1227185" target="_blank" rel="noreferrer">
-                      <img className="h-8 w-8" src="./images/socials/linkedin.png"></img>
+                      <img className="h-8 w-8" src="./images/socials/linkedin.png" alt="linkedin"></img>
                     </a>
                     <a className="btn btn-circle" href="mailto:ac.charleville@gmail.com" target="_blank" rel="noreferrer">
-                      <img className="h-8 w-8" src="./images/socials/mail.png"></img>
+                      <img className="h-8 w-8" src="./images/socials/mail.png" alt="mail"></img>
                     </a>
                 </div>
           <Footer />
-
               </div>
             </div>
           </div>

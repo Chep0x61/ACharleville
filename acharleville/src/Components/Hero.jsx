@@ -1,19 +1,6 @@
-import {useState, useEffect} from 'react';
 import Avatar from "./Avatar";
 
 const Hero = () => {
-    const [index, setIndex] = useState(0);
-    const texts = ["Sound Designer", "Perchman", "Mixeur"];
-    const [text, setText] = useState(texts[index]);
-
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setText(texts[index]);
-        setIndex((index + 1) % texts.length);
-      }, 2000);
-      return () => clearInterval(interval);
-    });
-
     return(
         <div className="hero min-h-screen bg-cover bg-left-top md:bg-center bg-[url('../public/images/decoration/oscillate.svg')] pb-20 md:pb-12 lg:pb-none bg-main">
             <div className="hero-content flex-col lg:flex-row text-flash pt-24 md:pt-12 md:gap-72">
