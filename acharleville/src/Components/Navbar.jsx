@@ -1,16 +1,19 @@
+import { useTranslation } from 'react-i18next'
+
 const Navbar = () => {
+  const { t } = useTranslation()
     return (
         <div className="navbar bg-flash">
           <div className="navbar-start">
             <div className="btn normal-case text-base bg-flash text-main hover:bg-flash border-none lg:text-2xl font-sawai">
-              Faites ressentir <br className="lg:hidden"/> l'image avec le son
+            {t('catchphrase1')}<br className="lg:hidden"/>{t('catchphrase2')}
             </div>
           </div>
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal gap-2 font-medium">
-              <li><a className="btn normal-case text-lg bg-main rounded-md text-test hover:text-yellow" href="#about" onClick={() => document.getElementById('about')}>A Propos de moi</a></li>
-              <li><a className="btn normal-case text-lg bg-main rounded-md text-test hover:text-yellow hover:bg-main" href="#projects" onClick={() => document.getElementById('projects')}>Mes Projets</a></li>
-              <li><a className="btn normal-case text-lg bg-main rounded-md text-test hover:text-yellow hover:bg-main" href="#contact" onClick={() => document.getElementById('contact')}>Me contacter</a></li>
+              <li><a className="btn normal-case text-lg bg-main rounded-md text-test hover:text-yellow" href="#about" onClick={() => document.getElementById('about')}>{t('aboutme')}</a></li>
+              <li><a className="btn normal-case text-lg bg-main rounded-md text-test hover:text-yellow hover:bg-main" href="#projects" onClick={() => document.getElementById('projects')}>{t('myprojects')}</a></li>
+              <li><a className="btn normal-case text-lg bg-main rounded-md text-test hover:text-yellow hover:bg-main" href="#contact" onClick={() => document.getElementById('contact')}>{t('contactme')}</a></li>
             </ul>
           </div>
           <div className="navbar-end gap-2">
