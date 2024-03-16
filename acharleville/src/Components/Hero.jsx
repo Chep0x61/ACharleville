@@ -8,7 +8,7 @@ const Hero = () => {
 
     return(
         <div className="hero min-h-screen bg-cover bg-left-top md:bg-center bg-[url('../public/images/decoration/oscillate.svg')] pb-20 md:pb-12 lg:pb-none bg-main">
-            <div className="hero-content flex-col lg:flex-row text-flash pt-24 md:pt-12 md:gap-72">
+            <div className="hero-content flex-col lg:flex-row text-flash pt-24 md:pt-12 gap-12 lg:gap-72">
             <Avatar />
             <div className="flex flex-col justify-center items-center lg:gap-2">
               <p className='text-2xl font-bold text-center md:text-4xl lg:text-5xl'>{t('fullname')}</p>
